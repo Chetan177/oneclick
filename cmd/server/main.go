@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+
+	"github.com/chetan177/oneclick/rest"
+)
 
 func main() {
-	fmt.Println("server")
+	server := rest.NewServer()
+	server.Start()
 }

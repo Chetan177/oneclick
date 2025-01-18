@@ -22,4 +22,9 @@ go.work
 go.work.sum
 
 # env file
-.env
+.env# Added by goreleaser init:
+dist/
+
+bin/
+__debug*
+.vscode
